@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'OCR-A';
+  src: url('OCRA.woff2') format('woff2'), 
+    url('OCRA.woff') format('woff');
+}
+
+body {
+  font-family: 'OCR-A', monospace;
+  margin: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+pre {
+  font-family: 'OCR-A', monospace;
+}
+
+.logo {
+  height: 360px;
+}
